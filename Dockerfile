@@ -1,6 +1,10 @@
 FROM debian:jessie
 MAINTAINER Ignacio Roncero Bazarra <ironcero@gmail.com>
 
+# Proxy configuration
+#ENV http_proxy http://10.116.8.100:8080
+#ENV https_proxy http://10.116.8.100:8080
+
 # Expose port
 EXPOSE 80
 
